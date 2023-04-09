@@ -1,4 +1,4 @@
-class  LivingCreature {
+class LivingCreature{
     constructor(x,y){
         this.x = x
         this.y = y
@@ -32,9 +32,5 @@ class  LivingCreature {
               }
               
         }
-
-
-        return found
-
-   }
+    }
 }

@@ -1,15 +1,16 @@
 
-class Grass   extends LivingCreature {
+class Grass extends LivingCreature{
     constructor(x,y){
         super(x,y)
-        this.multiply = 0 
-    }
+        this.multiply = 0
     
+    }
+
     mul(){
          this.multiply+= 5
           let emptyCell = this.chooseCell(0)
-          let newCell = random (emptyCell)
-      
+          let newCell = random(emptyCell)
+      console.log(emptyCell);
           if(newCell && this.multiply >= 5){
                      let newX  =   newCell[0]
                      let newY  =   newCell[1]

@@ -1,4 +1,7 @@
-class Hole  extends LivingCreature {
+let LivingCreature = require("./LivingCreature")
+
+
+module.exports = class Hole  extends LivingCreature {
     constructor(x, y) {
         super(x,y)
         this.directions = [
